@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .gif {
+            margin-top: 50px;
+        }
+        .text {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        a {
+            font-size: 18px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="gif">
+        <img src="https://media.giphy.com/media/3o7aD6Pr8D1xR40d5u/giphy.gif" alt="Funny GIF">
+    </div>
+    <div class="text">
+        This is a simple website with a GIF and a link.
+    </div>
+    <div>
+        <a href="https://example.com" target="_blank">Visit Example</a>
+    </div>
+</body>
+</html>
